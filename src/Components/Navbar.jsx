@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="hidden md:flex gap-6">
           <NavLink
             to="/"
-            className={({ isActive }) =>
+             className={({ isActive }) =>
               isActive ? "text-red-500 font-bold" : "hover:text-red-400"
             }
           >
@@ -41,10 +41,11 @@ export default function Navbar() {
         <button
           type="button"
           aria-label="Toggle navigation menu"
+          
           aria-expanded={open}
          
           className="md:hidden text-2xl"
-          
+
           onClick={() => setOpen(!open)}
         >
           ☰
