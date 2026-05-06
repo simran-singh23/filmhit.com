@@ -6,6 +6,8 @@ import Navbar from "./Components/Navbar";
 import MovieDetail from "./pages/MovieDetail";
 import Success from "./pages/Success";
 import MovieSection from "./Components/MovieSection";
+import Explore from "./pages/Explore";
+import LearnMore from "./pages/LearnMore";
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
                 <Route path="/movie/:id" element={<MovieDetail />} />
                 <Route path="/success" element={<Success />} />
+                <Route path="/explore" element={<Explore />} />
+        <Route path="/learn-more" element={<LearnMore />} />
       </Routes>  
-             <MovieSection />
+        
             
     </BrowserRouter>
   );

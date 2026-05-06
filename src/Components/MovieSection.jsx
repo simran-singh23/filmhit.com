@@ -84,9 +84,9 @@ MovieSection() {
             className="min-w-[220px] h-[320px] relative rounded-lg overflow-hidden group cursor-pointer"
           >
             <img
-              src={movie.img}
-              alt={movie.title}
-              className="w-full h-full object-cover group-hover:scale-110 transition duration-300"
+              src={movie.img}  alt={movie.title}
+              className="w-full h-full object-cover group-hover:scale-110
+               transition duration-300"
             />
 
 

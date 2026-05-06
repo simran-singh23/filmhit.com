@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import VideoHero from "../Components/VideoHero";
 import HeroBanner from "../Components/HeroBanner";
+import Hero from "../Components/Hero";
+import MovieSection from "../Components/MovieSection";
 
 const movies = [
   {
@@ -85,6 +87,8 @@ const Home = () => {
       </div>
            
       <HeroBanner />
+            <Hero />
+                 <MovieSection />
     </div>
   );
 };
