@@ -3,35 +3,27 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-
   return (
     <nav className="bg-gray-900 text-white px-6 py-4">
       <div className="flex justify-between items-center">
-        <h1 className="text-xl font-bold">filmy hit</h1>
+
+        <h1 className="text-xl font-bold">filmy
+             hit</h1>
 
         <div className="hidden md:flex gap-6">
-          <NavLink
-            to="/"
-             className={({ isActive }) =>
-              isActive ? "text-red-500 font-bold" : "hover:text-red-400"
+          <NavLink to="/"className={({ isActive }) =>isActive ? "text-red-500 font-bold"  : "hover:text-red-400"
             }
           >
             Home
           </NavLink>
-
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              isActive ? "text-red-500 font-bold" : "hover:text-red-400"
+          <NavLink to="/about"className={({ isActive }) =>
+     isActive ? "text-red-500 font-bold" : "hover:text-red-400"
             }
           >
-            About
+                   About
           </NavLink>
 
-          <NavLink
-            to="/contact"
-            className={({ isActive }) =>
-              isActive ? "text-red-500 font-bold" : "hover:text-red-400"
+          <NavLink to="/contact"className={({ isActive }) => isActive ? "text-red-500 font-bold" : "hover:text-red-400"
             }
           >
             Contact
@@ -44,9 +36,7 @@ export default function Navbar() {
           
           aria-expanded={open}
          
-          className="md:hidden text-2xl"
-
-          onClick={() => setOpen(!open)}
+          className="md:hidden text-2xl"   onClick={() => setOpen(!open)}
         >
           ☰
         </button>

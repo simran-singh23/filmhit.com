@@ -3,6 +3,7 @@ import VideoHero from "../Components/VideoHero";
 import HeroBanner from "../Components/HeroBanner";
 import Hero from "../Components/Hero";
 import MovieSection from "../Components/MovieSection";
+import MovieShowcase from "../Components/MovieShowcase";
 
 const movies = [
   {
@@ -89,6 +90,7 @@ const Home = () => {
       <HeroBanner />
             <Hero />
                  <MovieSection />
+                 <MovieShowcase />
     </div>
   );
 };

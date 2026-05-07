@@ -6,6 +6,7 @@ const Success = () => {
 
   const handleSelect = (plan) => {
     setSelectedPlan(plan);
+
     setShowPayment(true);
   };
 
@@ -14,9 +15,8 @@ const Success = () => {
 
   
       <h1 className="text-4xl mb-4">🎉 Success!</h1>
-      <p className="mb-8">Your details have been submitted.</p>
+      <p className="mb-8">Your details have been submitted successfully!</p>
 
-   
       <h2 className="text-2xl mb-6">Choose Your Plan</h2>
 
       <div className="grid md:grid-cols-3 gap-6 w-full max-w-5xl">
@@ -73,7 +73,7 @@ const Success = () => {
           <select className="w-full p-2 mb-4 bg-gray-800">
 
 
-            
+
             <option>Select Payment Method</option>
             <option>UPI</option>
             <option>Credit Card</option>

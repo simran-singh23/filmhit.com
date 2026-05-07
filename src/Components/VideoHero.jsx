@@ -6,7 +6,10 @@ export default function VideoHero() {
      h-screen overflow-hidden">
       
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover" src={bookvideo}   
+        className="absolute top-0 
+        left-0 w-full
+         h-full
+          object-cover" src={bookvideo}   
         autoPlay  loop muted
       />
 

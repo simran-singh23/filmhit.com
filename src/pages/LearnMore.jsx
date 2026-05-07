@@ -2,7 +2,8 @@ import React from "react";
 
 const LearnMore = () => {
   return (
-    <div className="bg-black text-white min-h-screen px-6 py-10">
+    <div className="bg-black text-white min-h-screen 
+    px-6 py-10">
 
       <section className="text-center mb-16">
         <h1 className="text-5xl font-bold mb-4 tracking-wide">
