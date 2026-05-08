@@ -54,11 +54,15 @@ export default function MovieShowcase() {
           >
             <div className="relative">
               <img  src={movie.image} alt={movie.title}
+
                 className="h-[350px] w-full object-cover"
               />
 
-              <div className="absolute top-4 left-4 bg-red-600 px-3 py-1 rounded-full text-sm flex items-center gap-2">
+              <div className="absolute top-4 left-4 bg-red-600 px-3 py-1 rounded-full 
+              text-sm flex items-center gap-2">
+
                 <FaFire />
+
                 Trending
               </div>
 
@@ -72,6 +76,7 @@ export default function MovieShowcase() {
                 <h2 className="text-2xl font-bold">{movie.title}</h2>
 
                 <div className="flex items-center gap-1 text-yellow-400">
+
                   <FaStar />
                   <span>{movie.rating}</span>
                 </div>
@@ -92,6 +97,8 @@ export default function MovieShowcase() {
       </div>
 
       <div className="mt-20 bg-zinc-900 rounded-3xl p-10 text-center">
+
+        
         <h2 className="text-3xl md:text-5xl font-bold mb-5">
           Why Choose Our Platform?
         </h2>

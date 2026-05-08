@@ -27,25 +27,25 @@ export default function Footer() {
             <ul className="space-y-4 text-gray-600">
 
               <li>
-                <Link to="/" className="hover:text-black">
+                <Link to="/blog" className="hover:text-black">
                   Blog
                 </Link>
               </li>
 
               <li>
-                <Link to="/about" className="hover:text-black">
+                <Link to="/podcast" className="hover:text-black">
                   Podcast
                 </Link>
               </li>
 
               <li>
-                <Link to="/explore" className="hover:text-black">
+                <Link to="/careers" className="hover:text-black">
                   Careers
                 </Link>
               </li>
 
               <li>
-                <Link to="/learnmore" className="hover:text-black">
+                <Link to="/newsroom" className="hover:text-black">
                   Newsroom
                 </Link>
               </li>

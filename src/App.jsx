@@ -8,8 +8,11 @@ import Success from "./pages/Success";
 import MovieSection from "./Components/MovieSection";
 import Explore from "./pages/Explore";
 import LearnMore from "./pages/LearnMore";
-import Footer from "./Components/Footer";
-
+import Footer from "./Components/footer";
+import Blog from "./pages/Blog";
+import Podcast from "./pages/Podcast";
+import Careers from "./pages/Careers";
+import Newsroom from "./pages/Newsroom";
 function App() {
   return (
     <BrowserRouter>
@@ -20,9 +23,14 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
                <Route path="/movie/:id" element={<MovieDetail />} />
+               
                   <Route path="/success" element={<Success />} />
                 <Route path="/explore" element={<Explore />} />
         <Route path="/learn-more" element={<LearnMore />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/podcast" element={<Podcast />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/newsroom" element={<Newsroom />} />
       </Routes>  
         
       <Footer />
