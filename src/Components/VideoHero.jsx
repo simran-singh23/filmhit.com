@@ -1,6 +1,9 @@
 import bookvideo from "./bookvideo.mp4";
+import { useNavigate } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";  
 
 export default function VideoHero() {
+  const navigate = useNavigate();
   return (
     <div className="relative w-full
      h-screen overflow-hidden">
@@ -26,9 +29,13 @@ export default function VideoHero() {
 
         <p className="mt-4 text-lg">
             Watch trending movies now 🎥</p>
-        <button className="mt-6 px-6 py-3 bg-pink-600 rounded">
-          Play Now
-        </button>
+        <button
+  onClick={() => navigate("/new")}
+  className="bg-red-600 hover:bg-red-700 px-5 py-3 rounded-xl flex items-center gap-3 duration-300"
+>
+  Explore Now
+  <FaArrowRight />
+</button>
       </div>
     </div>
   );
