@@ -6,7 +6,9 @@ import bg from "../assets/asd.jpeg";
 const texts = ["Watch Movies", "Enjoy Trailers", "Discover New Films"];
 
 export default function HeroBanner() {
+
   const [index, setIndex] = useState(0);
+  
   const navigate = useNavigate();
 
   const openPlayPage = () => {
@@ -14,6 +16,7 @@ export default function HeroBanner() {
   };
 
   useEffect(() => {
+
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % texts.length);
     }, 2000);
@@ -22,8 +25,7 @@ export default function HeroBanner() {
   }, []);
 
   return (
-    <div
-      role="button"
+    <div role="button"
       tabIndex={0}
       onClick={openPlayPage}
       onKeyDown={(event) => {
@@ -51,10 +53,7 @@ export default function HeroBanner() {
           {texts[index]}
         </h2>
 
-        <button
-          type="button"
-          onClick={(event) => {
-            event.stopPropagation();
+        <button type="button" onClick={(event) => {event.stopPropagation();
             openPlayPage();
           }}
           className="mx-auto mt-6 bg-red-600 hover:bg-red-700 px-5 py-3 rounded-xl flex items-center gap-3 duration-300"

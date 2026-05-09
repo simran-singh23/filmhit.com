@@ -32,6 +32,7 @@ export default function VideoHero() {
         <button
   onClick={() => navigate("/new")}
   className="bg-red-600 hover:bg-red-700 px-5 py-3 rounded-xl flex items-center gap-3 duration-300"
+  
 >
   Explore Now
   <FaArrowRight />
