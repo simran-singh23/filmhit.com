@@ -11,7 +11,7 @@ export default function Footer() {
             <h1 className="text-3xl font-bold flex items-center gap-3">
               <span className="text-orange-500 text-4xl">✿</span>
                 filmyhit
-            </h1>
+            </h1> 
 
             <div className="mt-28 text-6xl">
               🌼🌸🌻🌷

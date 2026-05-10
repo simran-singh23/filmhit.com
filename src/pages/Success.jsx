@@ -15,6 +15,8 @@ const Success = () => {
 
   
       <h1 className="text-4xl mb-4">🎉 Success!</h1>
+      
+
       <p className="mb-8">Your details have been submitted successfully!</p>
 
       <h2 className="text-2xl mb-6">Choose Your Plan</h2>
@@ -75,8 +77,11 @@ const Success = () => {
 
 
             <option>Select Payment Method</option>
+
             <option>UPI</option>
+
             <option>Credit Card</option>
+
             <option>Debit Card</option>
           </select>
 
