@@ -11,7 +11,7 @@ export default function Footer() {
             <h1 className="text-3xl font-bold flex items-center gap-3">
               <span className="text-orange-500 text-4xl">✿</span>
                 filmyhit
-            </h1>
+            </h1> 
 
             <div className="mt-28 text-6xl">
               🌼🌸🌻🌷
@@ -59,29 +59,44 @@ export default function Footer() {
             </h2>
 
             <ul className="space-y-4 text-gray-600">
-              <li>
-                <Link to="/moviedetail" className="hover:text-black">
-                  Cut Flowers
-                </Link>
-              </li>
+             <li>
+  <Link to="/movies" className="hover:text-black">
+    Movies
+  </Link>
+</li>
 
-              <li>
-                <Link to="/success" className="hover:text-black">
-                  Ornamental Plants
-                </Link>
-              </li>
+<li>
+  <Link to="/tvshows" className="hover:text-black">
+    TV Shows
+  </Link>
+</li>
 
-              <li>
-                <Link to="/contact" className="hover:text-black">
-                  Merchandising
-                </Link>
-              </li>
+<li>
+  <Link to="/trending" className="hover:text-black">
+    Trending
+  </Link>
+</li>
 
-              <li>
-                <Link to="/" className="hover:text-black">
-                  Partner Resources
-                </Link>
-              </li>
+<li>
+  <Link to="/Top" className="hover:text-black">
+    Top Rated
+  </Link>
+</li>
+
+<li>
+  <Link to="/upcoming" className="hover:text-black">
+    Upcoming
+  </Link>
+</li>
+
+<li>
+  <Link to="/popular" className="hover:text-black">
+    Popular
+  </Link>
+</li>
+
+                
+              
             </ul>
           </div>
 

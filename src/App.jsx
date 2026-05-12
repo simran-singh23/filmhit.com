@@ -13,6 +13,12 @@ import Blog from "./pages/Blog";
 import Podcast from "./pages/Podcast";
 import Careers from "./pages/Careers";
 import Newsroom from "./pages/Newsroom";
+import New from "./pages/New";
+import Play from "./pages/Play";
+import Top from "./pages/Top";
+import Movies from "./pages/Movies";
+import Trending from "./pages/Trending";
+import upcoming from "./pages/Upcoming";
 function App() {
   return (
     <BrowserRouter>
@@ -31,6 +37,12 @@ function App() {
         <Route path="/podcast" element={<Podcast />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/newsroom" element={<Newsroom />} />
+          <Route path="/new" element={<New />} />
+          <Route path="/play" element={<Play />} />
+          <Route path="/top" element={<Top />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/trending" element={<Trending />} />
+          <Route path="/upcoming" element={<upcoming />} />
       </Routes>  
         
       <Footer />

@@ -17,7 +17,8 @@ export default function Navbar() {
             Home
           </NavLink>
           <NavLink to="/about"className={({ isActive }) =>
-     isActive ? "text-red-500 font-bold" : "hover:text-red-400"
+     isActive ? "text-red-500 font-bold" : 
+          "hover:text-red-400"
             }
           >
                    About

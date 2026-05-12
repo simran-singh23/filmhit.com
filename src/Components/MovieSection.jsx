@@ -25,9 +25,7 @@ const movies90s = [
   },
   {
     title: "Baazigar",
-    actor: "Shah Rukh Khan",
-    desc: "Thriller with a negative hero role",
-    img: "https://i.pinimg.com/736x/d5/7f/c5/d57fc5ffdbb9487fa4500c7f80aa1f3a.jpg",
+    actor: "Shah Rukh Khan", desc: "Thriller with a negative hero role", img: "https://i.pinimg.com/736x/d5/7f/c5/d57fc5ffdbb9487fa4500c7f80aa1f3a.jpg",
     trailer: "https://www.youtube.com/watch?v=5fF8m3xG1k8"
   },
   {
@@ -59,10 +57,7 @@ export default function MovieSection() {
                group cursor-pointer 
                active:scale-95"
           >
-            <img
-              src={movie.img}
-              alt={movie.title}
-              className="w-full h-full object-cover
+            <img src={movie.img} alt={movie.title}  className="w-full h-full object-cover
                group-hover:scale-110 
                transition 
                duration-300"
